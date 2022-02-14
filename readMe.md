@@ -23,9 +23,9 @@ Key features include a add-to-cart function and a coupon code discount function 
 
 ## Screenshots
 
-![screenshot(1)](screenshots\Screenshot%20(1).png)
-![screenshot(2)](screenshots\Screenshot%20(2).png)
-![screenshot(3)](screenshots\Screenshot%20(3).png)
+![screenshot(1)](screenshots/Screenshot%20(1).png)
+![screenshot(2)](screenshots/Screenshot%20(2).png)
+![screenshot(3)](screenshots/screenshot(3).png)
 
 ## Usage
 
