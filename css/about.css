@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+:root {
+    --black-coral: #5D5F71;
+    --camel: #AD8A64;
+    --rose-brown: #BF8B85;
+    --queen-pink: #DABECA;
+    --linguid-lavender: #E3D8F1;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: var(--rose-brown);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+nav{
+    height: 3.5rem;
+    width: 85%;
+    background-color: var(--black-coral);
+    padding: 0 1rem;
+    
+    display: flex;
+    align-items: center;
+    
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin-right: 5rem;
+}
+
+main{
+    height: calc(100% - 3.5rem);
+    width: 100%;
+    color: white;
+    padding: 1rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+main h3{
+    width: 70%;
+    line-height: 2rem;
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/cart.css">
+    <link rel="stylesheet"
+        href="../assets/fontawesome-free-6.0.0-beta3-web/fontawesome-free-6.0.0-beta3-web/css/all.css">
+    <!-- JQuery CDN -->
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+    <!-- End of JQuery CDN -->
+    <title>Cart</title>
+</head>
+
+<body>
+    <nav>
+        <a href="index.html">
+            <h2>home</h2>
+        </a>
+        <a href="catalogue.html">
+            <h2>catalogue</h2>
+        </a>
+        <a href="about.html">
+            <h2>about us</h2>
+        </a>
+        <a href="contact.html">
+            <h2>contact</h2>
+        </a>
+        <a href="cart.html">
+            <h2>cart</h2>
+        </a>
+    </nav>
+    <main>
+        <div id="cart-container">
+        </div>
+        <div class="right-side">
+            <div id="total-container">
+                <h2 id="total-price"></h2>
+                <p>vat included</p>
+            </div>
+            <div class="form-container">
+                <form id="default-form">
+                    <label for="coupon">Get a discount</label>
+                    <input type="text" id="coupon-input" placeholder="Enter coupon code">
+                    <label for="delivery-select">Select your pick up</label>
+                    <select id="delivery-select">
+                        <option value="collection">collection</option>
+                        <option value="delivery">delivery (R40)</option>
+                    </select>
+                </form>
+
+                <div id="collection-drop-down">
+                    <button id="drop-down-btn">Show available days</button>
+                    <div id="drop-down-options-container">
+                        <a href="#"><h3>Monday, 12:45am</h3></a>
+                        <a href="#"><h3>Tuesday, 2:15pmpm</h3></a>
+                        <a href="#"><h3>Wednesday, 9:30am</h3></a>
+                        <a href="#"><h3>Thurday, 4.20pm</h3></a>
+                        <a href="#"><h3>Friday, 1:00pm</h3></a>
+                    </div>
+                </div>
+
+                <form id="delivery-form">
+                    <p>Deliver at the latest:</p>
+                    <input type="date" id="">
+                </form>
+            </div>
+            <button id="confirm-order-btn">Confirm order</button>
+        </div>
+    </main>
+    <script src="../javascript/cart.js"></script>
+</body>
+
+</html>
+
+
+<!-- 
+    Article title: HTML <option> selected Attribute
+    Website title: w3schools.com
+    URL: https://www.w3schools.com/tags/att_option_selected.asp 
+
+    Article title: jQuery Effect show() Method
+    Website title: w3schools.com
+    URL: https://www.w3schools.com/jquery/eff_show.asp
+    
+    Article title: Create a Clickable Dropdown
+    Website title: w3schools.com
+    URL: https://www.w3schools.com/howto/howto_js_dropdown.asp
+
+    Article title: event.target
+    Website title: jquery.com
+    URL: https://api.jquery.com/event.target/
+
+    Article title: jQuery toggle() Method
+    Website title: w3schools.com
+    URL: https://www.w3schools.com/jquery/eff_toggle.asp
+
+    Article title: jQuery fadeToggle() Method
+    Website title: w3schools.com
+    URL: https://www.w3schools.com/jquery/eff_fadetoggle.asp
+
+    Article title: jQuery animate() Method
+    Website title: w3schools.com
+    URL: https://www.w3schools.com/jquery/eff_animate.asp
+
+-->

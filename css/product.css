@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+:root {
+    --black-coral: #5D5F71;
+    --camel: #AD8A64;
+    --rose-brown: #BF8B85;
+    --queen-pink: #DABECA;
+    --linguid-lavender: #E3D8F1;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: var(--queen-pink);
+}
+
+nav {
+    height: 3.5rem;
+    width: 85%;
+    background-color: var(--black-coral);
+    padding: 0 1rem;
+
+    display: flex;
+    align-items: center;
+
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 5rem;
+}
+
+main {
+    width: 85%;
+    padding: 1rem 0 1rem 1rem;
+
+    display: flex;
+}
+
+main .image-container {
+    height: 25rem;
+    width: 25rem;
+    margin-right: 1rem;
+    border: 3px dashed black;
+    padding: 5px;
+    overflow: hidden;
+}
+
+main .image-container > img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: all 0.3s ease-out;
+}
+
+main .image-container > img:hover {
+    transform: scale(1.2);
+}
+
+main .details {
+    height: 25rem;
+    width: 60%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main .details .text p {
+    width: 80%;
+    padding: 1rem 0;
+}
+
+main .details .text ul li{
+    margin-top: 0.3rem;
+    margin-left: 1rem;
+}
+
+main .details .footer button {
+    height: 3rem;
+    width: 10rem;
+    font-size: 1.3rem;
+    background-color: transparent;
+    border: 2px solid black;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+
+main .details .footer h2{
+    margin-bottom: 2rem;
+}
+
+main .details .footer button:hover {
+    color: white;
+    background-color: var(--black-coral);
+    border: none;
+}
+
+/* ===================================== */
+/* footer */
+/* ===================================== */
+
+footer {
+    width: 100%;
+    background-color: var(--linguid-lavender);
+    padding: 1rem;
+}
+
+footer h2 {
+    margin-bottom: 1rem;
+}
+
+.testimonials-container {
+    width: 85%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonial {
+    min-height: 8rem;
+    width: 30rem;
+    color: white;
+    background-color: #2a2a2e;
+    border: 2px solid white;
+    padding: 1rem;
+    margin: 0.5rem 0;
+
+    display: flex;
+}
+
+.testimonial > img {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 100px;
+    border: 2px solid white;
+    padding: 0.3rem;
+    object-fit: cover;
+    margin-right: 1rem;
+}
+
+.profile-pic {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 100px;
+    border: 2px solid white;
+    margin-right: 1rem;
+}
+
+.testimonial .details {
+    display: flex;
+    flex-direction: column;
+}

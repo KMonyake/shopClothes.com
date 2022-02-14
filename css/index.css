@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+:root {
+    --black-coral: #5D5F71;
+    --camel: #AD8A64;
+    --rose-brown: #BF8B85;
+    --queen-pink: #DABECA;
+    --linguid-lavender: #E3D8F1;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0)),
+        url("../assets/images/pexels-artem-beliaikin-1036856.jpg");
+    background-size: 100%;
+    background-position: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+nav {
+    height: 3.5rem;
+    width: 85%;
+    background-color: var(--black-coral);
+    padding: 0 1rem;
+
+    display: flex;
+    align-items: center;
+
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin-right: 5rem;
+}
+
+main {
+    height: calc(100% - 3.5rem);
+    width: 100%;
+    font-family: 'Lobster', cursive;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main i {
+    font-size: 5rem;
+}
+
+main h1 {
+    font-size: 5rem;
+}
