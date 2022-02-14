@@ -7,8 +7,6 @@
 * screenshots
 * contributing
 
-====================================================================
-
 # Description
 
 ShopClothes.com is an online shop built with html, css and javascript.
